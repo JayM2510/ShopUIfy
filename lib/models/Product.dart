@@ -24,8 +24,26 @@ class Product {
 // Our demo Products
 
 List<Product> demoProducts = [
-  Product(
+   Product(
     id: 1,
+    images: [
+      "assets/images/shoes2.png",
+    ],
+    colors: [
+      Color(0xFFF6625E),
+      Color(0xFF836DB8),
+      Color(0xFFDECB9C),
+      Colors.white,
+    ],
+    title: "Nike Joyride",
+    price: 55.55,
+    description: description,
+    rating: 4.5,
+    isFavourite: true,
+    isPopular: true,
+  ),
+  Product(
+    id: 2,
     images: [
       "assets/images/ps4_console_white_1.png",
       "assets/images/ps4_console_white_2.png",
@@ -46,7 +64,7 @@ List<Product> demoProducts = [
     isPopular: true,
   ),
   Product(
-    id: 2,
+    id: 3,
     images: [
       "assets/images/Image Popular Product 2.png",
     ],
@@ -63,7 +81,7 @@ List<Product> demoProducts = [
     isPopular: true,
   ),
   Product(
-    id: 3,
+    id: 4,
     images: [
       "assets/images/glap.png",
     ],
@@ -81,7 +99,7 @@ List<Product> demoProducts = [
     isPopular: true,
   ),
   Product(
-    id: 4,
+    id: 5,
     images: [
       "assets/images/wireless headset.png",
     ],
@@ -100,4 +118,4 @@ List<Product> demoProducts = [
 ];
 
 const String description =
-    "Wireless Controller for PS4™ gives you what you want in your gaming from over precision control your games to sharing …";
+    "loreum20";
