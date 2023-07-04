@@ -6,28 +6,33 @@ import '../size_config.dart';
 class SocalCard extends StatelessWidget {
   const SocalCard({
     Key? key,
-    this.icon,
-    this.press,
+    required this.icon,
+    required this.press,
   }) : super(key: key);
 
-  final String? icon;
-  final Function? press;
+  final String icon;
+  final VoidCallback press;
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: press as void Function()?,
-      child: Container(
-        margin:
-            EdgeInsets.symmetric(horizontal: getProportionateScreenWidth(10)),
+    return ElevatedButton(
+      onPressed: press,
+      style: ElevatedButton.styleFrom(
+        padding: EdgeInsets.zero,
+        shape: CircleBorder(),
+        primary: Color(0xFFF5F6F9),
+        elevation: 3,
+      ),
+      child: Ink(
         padding: EdgeInsets.all(getProportionateScreenWidth(12)),
-        height: getProportionateScreenHeight(40),
-        width: getProportionateScreenWidth(40),
         decoration: BoxDecoration(
-          color: Color(0xFFF5F6F9),
           shape: BoxShape.circle,
         ),
-        child: SvgPicture.asset(icon!),
+        child: SvgPicture.asset(
+          icon,
+          height: getProportionateScreenHeight(20),
+          width: getProportionateScreenWidth(20),
+        ),
       ),
     );
   }
