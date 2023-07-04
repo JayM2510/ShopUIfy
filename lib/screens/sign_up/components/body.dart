@@ -4,6 +4,7 @@ import 'package:shop_app/constants.dart';
 import 'package:shop_app/size_config.dart';
 
 import 'sign_up_form.dart';
+import 'package:shop_app/screens/sign_in/sign_in_screen.dart';
 
 class Body extends StatelessWidget {
   @override
@@ -12,8 +13,7 @@ class Body extends StatelessWidget {
       child: SizedBox(
         width: double.infinity,
         child: Padding(
-          padding:
-              EdgeInsets.symmetric(horizontal: getProportionateScreenWidth(20)),
+          padding: EdgeInsets.symmetric(horizontal: getProportionateScreenWidth(20)),
           child: SingleChildScrollView(
             child: Column(
               children: [
@@ -45,10 +45,20 @@ class Body extends StatelessWidget {
                 ),
                 SizedBox(height: getProportionateScreenHeight(20)),
                 Text(
-                  'By continuing your confirm that you agree \nwith our Term and Condition',
+                  'By continuing, you confirm that you agree \nwith our Terms and Conditions',
                   textAlign: TextAlign.center,
                   style: Theme.of(context).textTheme.caption,
-                )
+                ),
+                SizedBox(height: getProportionateScreenHeight(20)),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.pushNamed(context, SignInScreen.routeName);
+                  },
+                  child: Text(
+                    'Already have an account? Sign In',
+                    style: TextStyle(decoration: TextDecoration.underline),
+                  ),
+                ),
               ],
             ),
           ),
