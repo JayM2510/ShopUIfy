@@ -4,6 +4,7 @@
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
 </h1>
 
 
@@ -32,19 +33,20 @@ ShopUIfy is a clean, minimal design and very detailed E-commerce UI kit for iOS 
 
 • Easy to customize
 
+• Google SignIn with Firebase Authentication
+
 
 🎯 The App will contain a few components: Splash Screens,Sign In Screen, SignUp Screen,Forgot Password Screen, Home Screen, List of Categories, Category Product Screens, Product Details Screen with Rating and Reviews, Ordering Process, User Profile with Notifications and Favorites.
 
 ## 📲Splash Screen:
-Onboarding Screen gives a short overview of an app. This Screen consists of three layouts which slide as we swipe left.
+The Onboarding Screen provides a concise app overview in three swipeable layouts. It introduces the app's purpose, showcases features and benefits, and prompts users to get started. It offers a visually engaging and informative introduction.
 
 |             Splash Screen 1              |                Splash Screen 2            |             Splash Screen 3               | 
 | :--------------------------------:       | :---------------------------------------: | :---------------------------------------: |
 |  ![](assets/images/splash_screen1.PNG)   | ![](assets/images/splash_screen2.PNG)     | ![](assets/images/splash_screen3.PNG)     |
 
 ## 🔐Sign In/Sign Up Screen:
-
-Sign Up will be done using email, name and password. Google and Facebook login included as well as forgot your password screen.
+Sign up is now available through email, password, and Google authentication. We have implemented Firebase authentication for secure email and password sign-ups. Users can conveniently log in using their Google accounts. A 'Forgot Your Password' feature is included to assist users in resetting their passwords. These updates provide a versatile and user-friendly sign-up experience.
 
 |               Sign In                    |                 Sign Up                   |              
 | :--------------------------------:       | :---------------------------------------: | 
@@ -100,6 +102,6 @@ A profile page represents information regarding an user's identity. It may conta
 ## :rocket: Resources:
 - [Flutter Official Docs](https://flutter.dev/docs)
 - [Flutter Community Medium](https://medium.com/flutter-community)
-- [UI Inspiration](https://github.com/abuanwar072/E-commerce-Complete-Flutter-UI)
+- [Firebase Authentication Docs](https://firebase.google.com/docs/auth)
 - [Icons/Emojis](https://emojipedia.org/)
 - [Stack Overflow: Flutter](https://stackoverflow.com/questions/tagged/flutter)
