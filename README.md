@@ -52,7 +52,6 @@ Sign up is now available through email, password, and Google authentication. We 
 | :--------------------------------:       | :---------------------------------------: | 
 |       ![](assets/images/login1.PNG)      |       ![](assets/images/sign_up1.PNG)     | 
 
-
 |          With Credentials                |              With Credentials             |              
 | :--------------------------------:       | :---------------------------------------: |
 |      ![](assets/images/login2.PNG)       |        ![](assets/images/sign_up2.PNG)    | 
@@ -62,25 +61,25 @@ Sign up is now available through email, password, and Google authentication. We 
 
 On the Login page, we will use Forgot Password bottom to reset the password. On tapping it will navigate us to forget password screen, it will have one reset password button. This button will trigger the verify method that will send an OTP to the given mail. 
 
-|          Forgot Password Screen          |            
+|          Forgot Password Screen          |        
 | :--------------------------------:       | 
-|  ![](assets/images/forgot_password.PNG)  | 
+|   <img src="assets/images/forgot_password.PNG"  width="300" alt="Forgot Password Screen" />     | 
 
 ## 🔎Home Screen:
 This screen shows all the products with their name, image, and price. Here you can search for the products or toggle between the girdview and listview. On tapping the item, it opens the product details page.
 
 
-|             Home Screen              |                
+|             Home Screen              |               
 | :--------------------------------:   | 
-|  ![](assets/images/home_Page1.PNG)   | 
+|   <img src="assets/images/home_Page1.PNG"  width="300" alt="Home Screen" /> | 
 
 ## 📇Product details screen:
 Provides information on a specific product. This information includes size, color, price, product information, reviews, and other relevant information customers want to know before purchasing. Here,customers can change the attributes of an item, move an item to a wish list, or remove an item from the shopping cart.
 
 
-|             Product 1                         |                Product 2                  |              Product 3                    | 
-| :-------------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-|  ![](assets/images/product_controller2.PNG)   |     ![](assets/images/product_shoe.PNG)   | ![](assets/images/product_glove.PNG)      |
+|             Product 1                         |                Product 2                  |              Product 3                  | 
+| :-------------------------------------------: | :---------------------------------------: | :---------------------------------------:|
+|  ![](assets/images/product_controller2.PNG)   |     ![](assets/images/product_shoe.PNG)   | ![](assets/images/product_glove.PNG)     |
 
 ## 🛒Cart page:
 
@@ -88,14 +87,14 @@ The Shopping Cart page lists all of the items that a customer added to their sho
 
 |             Items in Cart                |   
 | :--------------------------------:       | 
-|       ![](assets/images/cart.PNG)        | 
+|   <img src="assets/images/cart.PNG"  width="300" alt="Cart Page" /> | 
 
 ## 👤 Profile page:
 A profile page represents information regarding an user's identity. It may contain personal data, a profile photo and more.
 
 |             MyAccount Drawer             |                
 | :--------------------------------:       | 
-|  ![](assets/images/about_account.PNG)    | 
+|   <img src="assets/images/about_account.PNG"  width="300" alt="Profile page" /> | 
 
 
 
